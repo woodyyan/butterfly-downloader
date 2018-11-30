@@ -12,9 +12,8 @@ public class Downloader {
         this.savePath = savePath;
     }
 
-    public void download(String url) throws IOException {
-        String filename = url.substring(url.lastIndexOf('/') + 1);
-        System.out.println("Start download " + filename);
+    public void download(String url, String filename) throws IOException {
+        System.out.println("Start download " + url);
         saveImage(url, savePath + filename);
     }
 
