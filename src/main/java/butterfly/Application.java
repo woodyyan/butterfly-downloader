@@ -5,10 +5,9 @@ import java.io.IOException;
 public class Application {
     public static void main(String[] args) {
 
-        String initialUrl = "";
-        UrlGenerator generator = new UrlGenerator("", "");
+        UrlGenerator generator = new UrlGenerator("https://mtl.ttsqgs.com/images/img/15269/", ".jpg");
 
-        String savePath = "";
+        String savePath = "/Users/songbai.yan/Documents/Woody Studio/青娥/图片/10021/";
         Downloader downloader = new Downloader(savePath);
         while (true) {
             try {
