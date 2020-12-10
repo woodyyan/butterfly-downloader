@@ -6,10 +6,11 @@ import java.io.IOException;
 public class Application {
     public static void main(String[] args) {
 
-        String baseUrl = "https://mtl.ttsqgs.com/images/img/15304/";
-        String folderName = "10045马场富美加";
+        String baseUrl = "https://mtl.ttsqgs.com/images/img/12455/";
+        String folderName = "10049杉本有美";
+        int startIndex = 202;
+
         String savePath = "/Users/songbai.yan/Documents/Woody Studio/青娥/图片/" + folderName + "/";
-        int startIndex = 1;
 
         File file = new File(savePath);
         if (!file.exists()) {
